@@ -4,7 +4,7 @@ def fibonacci(i):
     return fibonacci(i - 1) + fibonacci(i - 2)
 
 
-def fibonacci_sequencce(n):
+def fibonacci_sequence(n):
     result = []
     while len(result) != n:
         for i in range(n):
@@ -12,4 +12,4 @@ def fibonacci_sequencce(n):
     return result
 
 
-print(fibonacci_sequencce(6))
+print(fibonacci_sequence(6))
