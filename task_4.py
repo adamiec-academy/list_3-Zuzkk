@@ -3,9 +3,9 @@ def tower(n):
     for i in range(1, n + 1):
         current_width = 2 * i - 1
         for _ in range(3):
-            print((total_width - current_width) / 2 * " " + current_width * "#" + (total_width - current_width) / 2 * " ")
+            print((total_width - current_width) // 2 * " " + current_width * "#" + (total_width - current_width) // 2 * " ")
 
-
+            
 def towers(data):
     max_size = max(data)
     shift = 1
@@ -30,4 +30,3 @@ def towers(data):
             
             print()
         shift += 1
-
