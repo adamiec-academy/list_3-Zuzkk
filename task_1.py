@@ -21,7 +21,3 @@ def get_perfect_numbers(n):
             else:
                 number += 1
     return result
-
-
-print(get_perfect_numbers(4))
-
