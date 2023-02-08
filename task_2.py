@@ -10,6 +10,3 @@ def fibonacci_sequence(n):
         for i in range(n):
             result.append(fibonacci(i))
     return result
-
-
-print(fibonacci_sequence(6))
